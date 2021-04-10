@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Quantico:ital,wght@0,400;1,700&display=swap');
+
+* {
+    margin: 0;
+}
+html {
+    cursor: url('arrow4.png'), auto;
+}
+
+body {
+    height: 100vh;
+    background-color: #000;
+    font-family: 'Quantico', sans-serif;
+    overflow: hidden;
+}
+
+
+h1 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    
+}
+
+h1 p {
+    color: rgb(244, 255, 87);
+    display: inline-block;
+    font-size: 60px;
+    text-shadow: 5px 5px 0 magenta;
+}
+
+p.txt {
+    display: block;
+    margin-top: 2vh;
+    font-size: 30px;
+    font-weight: 400;
+    text-shadow: 2px 2px magenta;
+}
+
+span {
+    margin: 5px;
+}
+
+.emot {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+
+}
+
+.emot img, .cursor img {
+    width: 100%;
+
+}
+
