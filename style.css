@@ -28,7 +28,7 @@ h1 p {
     color: rgb(244, 255, 87);
     display: inline-block;
     font-size: 60px;
-    text-shadow: 5px 5px 0 magenta;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black, 5px 5px 0 magenta;
 }
 
 p.txt {
@@ -36,7 +36,7 @@ p.txt {
     margin-top: 2vh;
     font-size: 30px;
     font-weight: 400;
-    text-shadow: 2px 2px magenta;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black, 2px 2px magenta;
 }
 
 span {
